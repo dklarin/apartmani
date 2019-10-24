@@ -1,0 +1,59 @@
+.root {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .titlebar {
+    height: var(--titlebar-height);
+    box-shadow: var(--std-bottom-boxshadow);
+    background-color: var(--main-bg-color);
+    z-index: 1000;
+  }
+  .contentview {
+    flex: 5;
+    height: 100%;
+    overflow-y: auto;
+  }
+  
+  .sidebar {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(183, 209, 232);
+    border-right: 1px solid #6190c1;
+    margin-right: 2px;
+  }
+  
+  .menuitem {
+    padding: 5px;
+    margin-top: 6px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding-left: 50px;
+  }
+  .menuitem.active {
+    background-color: rgb(36, 134, 190);
+    color: white;
+  }
+  .menuitem:hover {
+    background-color: rgb(0, 124, 196);
+  }
+  a.menuitem {
+    color: rgb(197, 220, 233);
+  }
+  a:visited.menuitem {
+    color: rgb(4, 32, 48);
+  }
+  
+  a:visited.menuitem.active {
+    color: rgb(197, 220, 233);
+  }
