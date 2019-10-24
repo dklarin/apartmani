@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/apartmani/static/css/main.dfca195d.chunk.css",
-    "main.js": "/apartmani/static/js/main.818ca3b6.chunk.js",
-    "main.js.map": "/apartmani/static/js/main.818ca3b6.chunk.js.map",
+    "main.css": "/apartmani/static/css/main.09dc1aa6.chunk.css",
+    "main.js": "/apartmani/static/js/main.41400e38.chunk.js",
+    "main.js.map": "/apartmani/static/js/main.41400e38.chunk.js.map",
     "runtime-main.js": "/apartmani/static/js/runtime-main.235530f2.js",
     "runtime-main.js.map": "/apartmani/static/js/runtime-main.235530f2.js.map",
-    "static/js/2.b073f863.chunk.js": "/apartmani/static/js/2.b073f863.chunk.js",
-    "static/js/2.b073f863.chunk.js.map": "/apartmani/static/js/2.b073f863.chunk.js.map",
+    "static/js/2.ade6339a.chunk.js": "/apartmani/static/js/2.ade6339a.chunk.js",
+    "static/js/2.ade6339a.chunk.js.map": "/apartmani/static/js/2.ade6339a.chunk.js.map",
     "index.html": "/apartmani/index.html",
-    "precache-manifest.cff9d945e1a416390afdc771ab240223.js": "/apartmani/precache-manifest.cff9d945e1a416390afdc771ab240223.js",
+    "precache-manifest.afd87ec14477b617f89bfa07bcfaa556.js": "/apartmani/precache-manifest.afd87ec14477b617f89bfa07bcfaa556.js",
     "service-worker.js": "/apartmani/service-worker.js",
-    "static/css/main.dfca195d.chunk.css.map": "/apartmani/static/css/main.dfca195d.chunk.css.map",
-    "static/media/logo.svg": "/apartmani/static/media/logo.25bf045c.svg"
+    "static/css/main.09dc1aa6.chunk.css.map": "/apartmani/static/css/main.09dc1aa6.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.235530f2.js",
-    "static/js/2.b073f863.chunk.js",
-    "static/css/main.dfca195d.chunk.css",
-    "static/js/main.818ca3b6.chunk.js"
+    "static/js/2.ade6339a.chunk.js",
+    "static/css/main.09dc1aa6.chunk.css",
+    "static/js/main.41400e38.chunk.js"
   ]
 }
