@@ -18,6 +18,7 @@ const App: React.FC = () => {
         >
           Learn React
         </a>
+        <div>Apartmani</div>
       </header>
     </div>
   );
