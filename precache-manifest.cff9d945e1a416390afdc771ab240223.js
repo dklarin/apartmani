@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "11aa7c0bbab2d84702cefe5b4c496d19",
+    "revision": "533999982df65592cc6de610233ffcbd",
     "url": "/apartmani/index.html"
   },
   {
-    "revision": "8895b3c96548fba5f378",
+    "revision": "b6643b02b10c33fb190c",
     "url": "/apartmani/static/css/main.dfca195d.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/apartmani/static/js/2.b073f863.chunk.js"
   },
   {
-    "revision": "8895b3c96548fba5f378",
-    "url": "/apartmani/static/js/main.4cdb9148.chunk.js"
+    "revision": "b6643b02b10c33fb190c",
+    "url": "/apartmani/static/js/main.818ca3b6.chunk.js"
   },
   {
     "revision": "cf782df4f5e2d878156f",
