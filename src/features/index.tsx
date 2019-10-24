@@ -3,6 +3,8 @@ import { Apartment1 } from "../features/apartment_1";
 import { Apartment2 } from "../features/apartment_2";
 import styled from "styled-components";
 
+//Daniječl
+
 const StyledPickerButton = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
