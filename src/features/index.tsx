@@ -5,27 +5,28 @@ import styled from "styled-components";
 
 //Daniječl
 
-const StyledPickerButton = styled.div`
+const StyledContainer = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 6fr 0.5fr 0.5fr 6fr 1fr;
+  grid-template-rows: 0.4fr 5fr 0.4fr;
 `;
 
 const StyledApartment_1 = styled.div`
-  grid-column: 1/2;
-  background-color: blue;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  border-style: dotted;
+  border-width: 1px;
+  &:hover {
+    background-color: yellow;
+    transform: scale(1.1);
+  }
 `;
 
 const StyledApartment_2 = styled.div`
-  grid-column: 4/5;
-  background-color: blue;
-`;
-
-const StyApartment1 = styled(Apartment1)`
-  grid-column: 2/3;
-`;
-
-const StyApartment2 = styled(Apartment2)`
-  color: violet;
+  grid-column: 5/6;
+  grid-row: 2/3;
+  border-style: dotted;
+  border-width: 1px;
 `;
 
 /*<StyledApartment_1>
@@ -34,14 +35,14 @@ const StyApartment2 = styled(Apartment2)`
 
 export const Apartman_1 = () => {
   return (
-    <StyledPickerButton>
+    <StyledContainer>
       <StyledApartment_1>
         <Apartment1 />
       </StyledApartment_1>
       <StyledApartment_2>
         <Apartment2 />
       </StyledApartment_2>
-    </StyledPickerButton>
+    </StyledContainer>
   );
 };
 
