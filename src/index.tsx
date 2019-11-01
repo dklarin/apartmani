@@ -4,18 +4,16 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
-//var destination = document.querySelector("#container");
-
-import { Route, Link, BrowserRouter as Router } from "react-router-dom";
+import { Route, BrowserRouter as Router } from "react-router-dom";
 
 import ApartmentFull from "../src/features/apartmentFull/index";
 
 const routing = (
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     <div>
       <Route exact path="/" component={App} />
-      <Route path="/apartModri/" component={ApartmentFull} />
-      <Route path="/apartSmedji/" component={ApartmentFull} />
+      <Route path="/apartmodri/" component={ApartmentFull} />
+      <Route path="/apartsmedji/" component={ApartmentFull} />
     </div>
   </Router>
 );
@@ -27,5 +25,3 @@ ReactDOM.render(routing, document.getElementById("root"));
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
-
-//component={() => <ApartmentFull myProp="Vrijednost" />}

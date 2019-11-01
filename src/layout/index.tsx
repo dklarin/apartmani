@@ -53,9 +53,7 @@ export const Layout = (props: any) => {
 
   return (
     <StyledContainer>
-      <StyledApartment_1>
-        <Sidebar />
-      </StyledApartment_1>
+      <StyledApartment_1></StyledApartment_1>
 
       <StyledApartment_2>
         <Link
