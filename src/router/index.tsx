@@ -1,12 +1,18 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-
-import TodoList from "../features";
+import ApartmentFull from "../features/apartmentFull/index";
+import { Link, BrowserRouter as Router } from "react-router-dom";
 
 export const Routes = () => {
   return (
-    <Switch>
-      <Route path="/lines" component={TodoList} />
-    </Switch>
+    <Router>
+      <Route path="/apart" component={ApartmentFull} />
+    </Router>
   );
 };
+
+{
+  /* <Switch>
+      <Route path="/apartmani" component={ApartmentFull} />
+  </Switch>*/
+}

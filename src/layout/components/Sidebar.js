@@ -8,6 +8,7 @@ const MenuItem = props => {
       className={styles.menuitem}
       activeClassName={styles.active}
       to={routePath}
+      target="_blank"
     >
       {title}
     </NavLink>
@@ -16,7 +17,7 @@ const MenuItem = props => {
 export const Sidebar = props => {
   return (
     <div className={styles.sidebar}>
-      <MenuItem title="Apartmani" routePath="/lines" />
+      <MenuItem title="Apartmani" routePath="/apartmani" />
     </div>
   );
 };
