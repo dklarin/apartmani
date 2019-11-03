@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import image from "../../data/preuzmi.png";
 
 const StyledContainer = styled.div`
   display: grid;

@@ -8,7 +8,7 @@ export const quiz = {
       answers: {
         A: "Apartman Modri",
         B: image,
-        C: "Apartman Svijetloplavi ",
+        C: "blue",
         D: "Apartman Zeleni"
       },
       correctAnswer: "C"
@@ -18,7 +18,7 @@ export const quiz = {
       answers: {
         A: "Apartman Smeđi",
         B: jabuka,
-        C: "godinu dana",
+        C: "sienna",
         D: "8 minuta"
       },
       correctAnswer: "D"

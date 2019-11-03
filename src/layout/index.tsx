@@ -59,7 +59,10 @@ export const Layout = (props: any) => {
         <Link
           to={{
             pathname: "/apartModri/",
-            state: { granica: question[0].answers.A }
+            state: {
+              granica: question[0].answers.A,
+              color: question[0].answers.C
+            }
           }}
         >
           <Apartment1
@@ -74,7 +77,10 @@ export const Layout = (props: any) => {
         <Link
           to={{
             pathname: "/apartSmedji/",
-            state: { granica: question[1].answers.A }
+            state: {
+              granica: question[1].answers.A,
+              color: question[1].answers.C
+            }
           }}
         >
           <Apartment1
