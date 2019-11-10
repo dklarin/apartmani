@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import DatePicker from "react-date-picker";
 import styled from "styled-components";
+import { Label } from "../../ui/label";
+import TextInput from "../../ui/textInput";
 
 const StyledContainer = styled.div`
   display: grid;
@@ -89,17 +91,13 @@ export const ApartmentFull = (props: any) => {
   toDatesShow = toDates.map(i => i.date.toLocaleDateString("hr-HR"));
 
   const handleSubmit = (event: any) => {
-    //alert("A name was submitted: " + formValue.value);
-    //console.log("event formValue value: " + formValue.value);
     setGuest(formValue.value);
     console.log("form value: " + formValue.value);
     event.preventDefault();
   };
 
   const handleChange = (event: any) => {
-    console.log("handle change: " + event.target.value);
     setFormValue({ value: event.target.value });
-    console.log("form value: " + formValue.value);
   };
 
   return (
@@ -125,17 +123,9 @@ export const ApartmentFull = (props: any) => {
         </StyledCalendarTo>
 
         <StyledForm>
-          <form onSubmit={handleSubmit}>
-            <div>Ime:</div>
-            <label>
-              <input
-                type="text"
-                value={formValue.value}
-                onChange={handleChange}
-              />
-            </label>
-            <input type="submit" value="Dodaj" />
-          </form>
+          <TextInput value={formValue.value} onChange={handleChange} />
+
+          <button onClick={handleSubmit}>Dodaj</button>
         </StyledForm>
 
         <StyledDates>
@@ -145,6 +135,7 @@ export const ApartmentFull = (props: any) => {
             Datumi: {fromDatesShow} &rarr; {toDatesShow}
           </div>
         </StyledDates>
+        <Label>fdgdf</Label>
       </StyledContainer>
     </div>
   );
